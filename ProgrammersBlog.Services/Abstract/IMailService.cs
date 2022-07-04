@@ -10,7 +10,7 @@ namespace ProgrammersBlog.Services.Abstract
 {
     public interface IMailService
     {
-        IResult Send(EmailSendDto emailSendDto); // alper@altu.dev
-        IResult SendContactEmail(EmailSendDto emailSendDto); // alper@altu.dev info@programmersblog.com iletisim@programmersblog.com
+        IResult Send(EmailSendDto emailSendDto); // taha@mail.dev
+        IResult SendContactEmail(EmailSendDto emailSendDto); //  taha@mail.dev info@programmersblog.com iletisim@programmersblog.com
     }
 }

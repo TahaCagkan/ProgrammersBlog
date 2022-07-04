@@ -27,8 +27,8 @@ namespace ProgrammersBlog.Services.Concrete
         {
             MailMessage message = new MailMessage
             {
-                From = new MailAddress(_smtpSettings.SenderEmail), //alpertunga004@outlook.com
-                To = { new MailAddress(emailSendDto.Email) }, //alper@altu.dev
+                From = new MailAddress(_smtpSettings.SenderEmail), //taha004@outlook.com
+                To = { new MailAddress(emailSendDto.Email) }, //taha@mail.dev
                 Subject = emailSendDto.Subject, //Şifremi Unuttum // Siparişiniz Başarıyla Kargolandı.
                 IsBodyHtml = true,
                 Body = emailSendDto.Message // "12345" No'lu siparişiniz kargolanmıştır.
